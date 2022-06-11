@@ -21,10 +21,10 @@ function App() {
       // var minutesIST = ISTTime.getMinutes();
       const currentTime = currTime.getHours();
 
-      const execTime = 16;
+      const execTime = 20;
 
       let timeLeft;
-      if(currentTime < 16) {
+      if(currentTime < 20) {
 
           timeLeft = execTime*60*60*1000 - currTime*60*60*1000;
       } else {
